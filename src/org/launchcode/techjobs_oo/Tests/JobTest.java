@@ -30,5 +30,7 @@ public class JobTest {
     }
 
     @Test
-    public void
+    public void testJobConstructorSetAllFields() {
+        assertEquals(true, testJob3 instanceof Job);
+    }
 }
